@@ -1,6 +1,6 @@
 const updatePost = async (updatedPost) => {
   const { id, ...data } = updatedPost;
-  const response = await axios.put(`https://jsonplaceholder.typicode.com/posts/${id}`, data);
+  const response = await axios.put(`https://fakestoreapi.com/products`);
   return response.data;
 };
 
